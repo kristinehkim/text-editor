@@ -13,7 +13,7 @@ const initdb = async () =>
   });
 
 export const putDb = async (content) => {
-  console.log('Put to the database');
+  console.log('Updated the database');
 
    // Create a connection to the database database and version we want to use.
    const contactDb = await openDB('jate', 1);
@@ -33,7 +33,7 @@ export const putDb = async (content) => {
 }
 
 export const getDb = async () => {
-  console.log('Get to the database');
+  console.log('Get the database');
 
    // Create a connection to the database database and version we want to use.
    const contactDb = await openDB('jate', 1);
